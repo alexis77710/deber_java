@@ -64,12 +64,11 @@
         multiplicacion *
         division /
         modulo % */
-        var a = 5;
-        var b = 2;
-        var suma = a + b;
-        console.log("la suma de la operacion es", suma);
+        
         //Edison  math
-        var c = 9;
+        var c;
+        var c = prompt("ingrese el numero para la raiz");
+        
         var d = Math.sqrt(c);
         console.log("La raiz es:" + d)
         //condicionales
@@ -81,8 +80,21 @@
         } else {
             console.log("El valor es exacto")
         }
-
        
+        var e;  //a
+        var f;  //b 
+        var g;  //c
+        var h= f*f-4*e*g;
+        var i= f*f-4*e*g;
+        var e = prompt("ingrese el primer numero");
+        var f = prompt("ingrese el segundo numero");
+        var g = prompt("ingrese el tercer numero");
+        
+        var positivo = (-f+ Math.sqrt(h)) / (2*e);
+        var negativo = (-f- Math.sqrt(i)) / (2*e);
+
+        console.log("El resultado es +" + positivo );
+        console.log("El resultado es +" + negativo );
 
     </script>
 </body>
